@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon" transform="translate(-345 -666)">
+    <rect id="grid" width="24" height="24" transform="translate(345 666)" fill="#ff2b2b" opacity="0"/>
+    <g id="icon-2" data-name="icon" transform="translate(-28.5 293.5)">
+      <g id="그룹_644" data-name="그룹 644">
+        <g id="그룹_642" data-name="그룹 642">
+          <line id="선_154" data-name="선 154" y2="7" transform="translate(378.5 377)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="선_155" data-name="선 155" y2="7" transform="translate(381.5 377)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="선_156" data-name="선 156" y2="7" transform="translate(384.5 377)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+        <g id="그룹_643" data-name="그룹 643">
+          <line id="선_157" data-name="선 157" x1="7" transform="translate(387 377.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="선_158" data-name="선 158" x1="7" transform="translate(387 380.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="선_159" data-name="선 159" x1="7" transform="translate(387 383.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="그룹_647" data-name="그룹 647">
+        <g id="그룹_645" data-name="그룹 645">
+          <line id="선_160" data-name="선 160" y2="7" transform="translate(393 386)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="선_161" data-name="선 161" y2="7" transform="translate(390 386)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="선_162" data-name="선 162" y2="7" transform="translate(387 386)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+        <g id="그룹_646" data-name="그룹 646">
+          <line id="선_163" data-name="선 163" x2="7" transform="translate(377.5 386.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="선_164" data-name="선 164" x2="7" transform="translate(377.5 389.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="선_165" data-name="선 165" x2="7" transform="translate(377.5 392.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+      </g>
+      <rect id="사각형_1700" data-name="사각형 1700" width="22" height="21" transform="translate(374.5 374.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

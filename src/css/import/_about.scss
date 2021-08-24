@@ -1,0 +1,270 @@
+    [class*="about-sec"]{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+    }
+    .about-fullpage{
+        .scroll-up-btn{
+            bottom: 40px;
+        }
+    }
+    .scrollarrow{
+        transition: 0.5s ease;
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        z-index: 5000;
+        transform: translateX(-50%);
+    }
+    body.fp-viewing-3{
+        .scrollarrow{
+            opacity: 0;
+        }
+    }
+    body.fp-viewing-4{
+        .scrollarrow{
+            opacity: 0;
+        }
+    }
+    body.fp-viewing-0{
+        .intro{
+            
+        }
+    }
+    body.fp-viewing-0{
+        .about-sec0{
+            overflow: hidden;
+            &.fp-completely{
+                
+                .intro-bg{
+                    transform: scale(1);
+                }
+                h1{
+                    opacity: 0;
+                    animation: fadeIn-up 0.75s ease forwards;
+                }
+            }
+        }
+    }
+    .about-sec1{
+        overflow: hidden;
+        
+        .about-sec-bg{
+            width: 100%;
+            height: 100%;
+            background: url("../images/bg/about-bg2.png") no-repeat center / cover;
+            transform: scale(1.1);
+            transition: 1s ease;
+        }
+        &.fp-completely{
+            .about-sec-bg{
+                transform: scale(1);
+            }
+            .about-text i{
+                animation: aboutTitle 0.5s 0.5s ease forwards;
+            }
+            .about-text h2 i{
+                margin-right: 0;
+                transition: 0.5s 1s;
+            }
+        }
+    }
+    .about-sec2{
+        overflow: hidden;
+        .about-text{
+            strong{
+                color: #2B413C;
+            }
+            h2 span{
+                color: #2B413C;
+            }
+        }
+        .about-sec-bg{
+            width: 100%;
+            height: 100%;
+            background: url("../images/bg/about-bg3.png") no-repeat top / cover;
+            transform: scale(1.1);
+            transition: 1s ease;
+        }
+        &.fp-completely{
+            .about-sec-bg{
+                transform: scale(1);
+            }
+            .about-text i{
+                animation: aboutTitle 0.5s 0.5s ease forwards;
+            }
+        }
+    }
+    .about-sec3{
+        overflow: hidden;
+        .about-text{
+            strong{
+                color: #093C60;
+            }
+            h2 span{
+                color: #093C60;
+            }
+        }
+        .about-sec-bg{
+            width: 100%;
+            height: 100%;
+            background: url("../images/bg/about-bg4.png") no-repeat center / cover;
+            transform: scale(1.1);
+            transition: 1s ease;
+        }
+        &.fp-completely{
+            .about-sec-bg{
+                transform: scale(1);
+            }
+            .about-text i{
+                animation: aboutTitle 0.5s 0.5s ease forwards;
+            }
+            .about-text h2 i{
+                margin-right: 0;
+                transition: 0.5s 1s;
+            }
+        }
+    }
+    .intro-bg{
+        width: 100vw;
+        height: 100vh;
+        background: url("../images/bg/about-bg1.png") no-repeat center / cover;
+        transform: scale(1.1);
+        transition: 1s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .intro{
+        display: flex;
+        position: relative;
+        h1{
+            font-size: 50px;
+            font-family: "Roboto",sans-serif;
+            font-weight: 600;
+            color: #8B2611;
+            text-transform: uppercase;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            transition: 0.75s ease;
+            opacity: 1;
+            animation: fadeOut-down 0.5s ease forwards;
+        }
+    }
+
+    .scroll-up-btn {
+        position: absolute;
+        z-index: 99999;
+        right: 20px;
+        bottom: 345px;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, .7);
+    }
+    .scroll-up-btn i {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: url(../images/icon/btn_arrow-w.svg) center no-repeat;
+        background-size: 12px
+    }
+    .about-text{
+        position: absolute;
+        width: calc(100% - 40px);
+        left: 50%;
+        text-align: center;
+        top: 50%;
+        transform: translate(-50%,-50%);
+
+        strong{
+            font-size: 20px;
+            font-family: "Spoqa Han Sans",sans-serif;
+            font-weight: 600;
+            color: #503500;
+            margin-bottom: 22px;
+            display: block;
+        }
+        h2{
+            width: min-content;
+            height: 40px;
+            vertical-align: middle;
+            overflow: hidden;
+            display: flex;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            margin: 0 auto 10px auto;
+            
+            span{
+                font-size: 40px;
+                font-family: "Roboto",sans-serif;
+                font-weight: 600;
+                color: #503500;
+                transition: 0.5s ease;
+                display: inline-flex;
+                justify-content: flex-start;
+
+                &:nth-child(1){
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            i{
+                display: inline-block;
+                margin-right: 12px;
+            }
+        }
+        p{
+            font-size: 14px;
+            font-family: "Spoqa Han Sans",sans-serif;
+            font-weight: 400;
+            color: #777777;
+            line-height: 20px;
+            word-break: keep-all;
+        }
+    }
+    .about-icon{
+        position: absolute;
+        bottom: 110px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-top: 1px solid $black-100;
+        width: 190px;
+        height: 181px;
+        padding-top: 10px;
+        display: none;
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        li{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10px;
+            min-width: 190px;
+            margin-bottom: 25px;
+            
+            h3{
+                font-size: 14px;
+                font-family: "Roboto",sans-serif;
+                font-weight: 600;
+                color: #000000;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .scroll-down-btn{
+    }
+    .about-text{
+    }
+    .about-icon{
+    }

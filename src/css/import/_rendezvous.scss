@@ -1,0 +1,242 @@
+body.fp-viewing-6{
+    .rendezvous-sec_title{
+        h2{
+            opacity: 0;
+            animation: fadeIn-up-s 0.75s 0.5s ease forwards;
+        }
+        p{
+            opacity: 0;
+            animation: fadeIn-up-s 0.75s 0.75s ease forwards;
+        }
+    }
+}
+body.fp-viewing-7{
+    .rendezvous-bg-img img{
+        filter: blur(5px);
+        transform: scale(1.05);
+    }
+}
+body.fp-viewing-9{
+    .ending .scroll-up-btn{
+        opacity: 1;
+    }
+}
+
+.rendezvous-bg-img{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+    background-color: #000;
+    transition: 0.5s ease;
+
+    img{
+        width: 100vw;
+        height: auto;
+        transition: 1s ease;
+        position: static;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+}
+.rendezvous-sec_title{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+    position: relative;
+    z-index: 110;
+
+    h2{
+        font-size: 50px;
+        font-family: "Roboto",sans-serif;
+        font-weight: 600;
+        color: $white-100;
+        line-height: 56px;
+        margin-bottom: 10px;
+        opacity: 1;
+        animation: fadeOut-down-s 1s 0.25s ease forwards;
+        text-transform: uppercase;
+    }
+
+    p{
+        font-size: 14px;
+        font-family: "Spoqa Han Sans",sans-serif;
+        font-weight: 400;
+        color: $white-100;
+        opacity: 1;
+        animation: fadeOut-down-s 1s ease forwards;
+    }
+}
+.rendezvous-content{
+    position: relative;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(-50%);
+    transition: 0.5s ease;
+}
+
+.rendezvous-content-inner{
+    width: 345px;
+    height: 488px;
+    transition: 1s ease;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.rendezvous-btn{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $white-100;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    i{
+        width: 16px;
+        height: 16px;
+        display: block;
+    }
+    img{
+        width: 16px;
+        height: 16px;
+        position: static;
+        left: auto;
+        transform: translateX(0);
+    }
+}
+
+.rendezvous-section{
+    position: fixed !important;
+    top: 0;
+    right: -100vw;
+    height: 100vh;
+    width: 100vw;
+    z-index: 99999999999999 !important;
+    transition: 1s ease;
+    background-color: $black-100;
+
+    &.show{
+        right: 0;
+    }
+
+    .rendezvous-close-btn{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 99999999999999;
+    }
+
+    .swiper-slide{
+        width: 100%;
+        position: relative;
+
+        .rendezvous-sec-bg{
+            width: 100vw;
+            position: absolute;
+            bottom: 0;
+            z-index: -1;
+        }
+        &:nth-child(1) .rendezvous-sec-bg{height: calc(100% - 196px); background: url("../images/bg/rendezvous-bg1.png") no-repeat center / cover;}
+        &:nth-child(1) .rendezvous-sec-title{height: 196px;}
+        &:nth-child(2) .rendezvous-sec-bg{height: calc(100% - 277px); background: url("../images/bg/rendezvous-bg2.png") no-repeat center / cover;}
+        &:nth-child(2) .rendezvous-sec-title{height: 277px;}
+        &:nth-child(3) .rendezvous-sec-bg{height: calc(100% - 277px); background: url("../images/bg/rendezvous-bg3.png") no-repeat center / cover;}
+        &:nth-child(3) .rendezvous-sec-title{height: 277px;}
+        &:nth-child(4) .rendezvous-sec-bg{height: calc(100%); background: url("../images/bg/rendezvous-bg4.png") no-repeat center / cover;}
+        &:nth-child(5) .rendezvous-sec-title{height: 237px;}
+        &:nth-child(5) .rendezvous-sec-bg{height: calc(100% - 237px); background: url("../images/bg/rendezvous-bg5.png") no-repeat center / cover;}
+        &:nth-child(6) .rendezvous-sec-title{height: 173px;}
+        &:nth-child(6) .rendezvous-sec-bg{height: calc(100% - 173px); background: url("../images/bg/rendezvous-bg6.png") no-repeat center / cover;}
+        
+        .rendezvous-sec-title{
+            position: absolute;
+            top: 0;
+            width: 100vw;
+            background: url("../images/bg/box_bg.png") no-repeat center / cover;
+    
+            .rendezvous-sec-text{
+                width: calc(100% - 40px);
+                margin: 0 auto;
+                padding-bottom: 20px;
+            }
+            h2{
+                font-size: 40px;
+                font-family: "Roboto",sans-serif;
+                font-weight: 600;
+                color: $white-100;
+                line-height: 44px;
+                margin-top: 20px;
+            }
+            h3{
+                margin-top: 7px;
+                font-size: 20px;
+                font-family: "Roboto",sans-serif;
+                font-weight: 600;
+                color: $white-100;
+                line-height: 26px;
+            }
+            strong{
+                font-size: 16px;
+                font-family: "Roboto",sans-serif;
+                font-weight: 400;
+                color: $white-100;
+                margin-top: 7px;
+                display: block;
+            }
+            p{
+                font-size: 14px;
+                font-family: "Spoqa Han Sans",sans-serif;
+                font-weight: 400;
+                color: #F2F2F2;
+                margin-top: 10px;
+                line-height: 20px;
+            }
+        }
+        .rendezvous-sec-content{
+            position: absolute;
+            // bottom: 17.5vh;
+            bottom: 20px;
+            left: 20px;
+            z-index: 20;
+            
+            p{
+                font-size: 10px;
+                font-family: "Roboto",sans-serif;
+                font-weight: 600;
+                color: $white-100;
+                line-height: 14px;
+                text-transform: uppercase;
+                margin-top: 10px;
+            }
+    
+            &.black{
+                p{
+                    color: $black-100;
+                }
+            }
+        }
+    }
+}

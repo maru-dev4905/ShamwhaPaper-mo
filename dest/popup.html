@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <title>etc</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <div class="popup-box">
+        <div class="popup-content swiper-container">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <img src="http://placehold.it/331x395" alt="popup-img">
+                </li>
+                <li class="swiper-slide">
+                    <img src="http://placehold.it/331x395" alt="popup-img">
+                </li>
+                <li class="swiper-slide">
+                    <img src="http://placehold.it/331x395" alt="popup-img">
+                </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="popup-bottom">
+            <label class="chk-box">
+                <input type="checkbox" name="check" class="chk">
+                <span></span>
+                오늘 하루 열지 않기
+            </label>
+            <button class="popup-bottom-close">
+                <i></i>
+            </button>
+        </div>
+    </div>
+    <div class="cookie-box">
+        <button class="cookie-box-close">
+            <i></i>
+        </button>
+        <h2>이 웹사이트는 쿠키를 사용합니다.</h2>
+        <p>
+            이 웹사이트는 쿠키를 사용합니다. 웹 사이트를 계속 사용함으로써
+            고객은 쿠키의 사용을 동의하게 됩니다. 자세한 내용은 본사의 
+            <a href="./etc-cookie.html">쿠키정책</a>을 참조하시기 바립니다.                
+        </p>
+    </div>
+    <script>
+        var swiper = new Swiper(".swiper-container",{
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        })
+    </script>
+    <script src="./js/common.js"></script>
+    <script src="./js/popup.js"></script>
+</body>
+</html>

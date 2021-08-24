@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        .tbl{ text-align: left; min-width: 80%; margin: 20px auto; font-size: 12px; border-bottom: 1px solid #d3d3d3;}
+		.tbl td, .tbl th{ border: 1px solid #d3d3d3; border-left: none; border-bottom:none;  padding: 5px 10px}
+		
+		.tbl col:nth-child(1) { background-color: #f2f2f2 }
+		.tbl td:nth-child(2) { background-color: #f8f8f8 }
+		.tbl td:nth-child(3) { background-color: #eee; text-align: center}
+		.tbl td:nth-child(4) { text-align: center}
+		.tbl col:nth-child(4) { background-color: #e5e5e5; }	
+		.tbl thead th{ background:#2565d0 !important; color:#fff; text-align: center}		
+		.tbl tr.ing th, .tbl tr.ing td { background: #f2dede; color:#a94442 }
+		.tbl tr.end th, .tbl tr.end td { background: #dff0d8; color:#3c763d }
+		.tbl tr:hover th, .tbl tr:hover td { background: #ecf2fc; color:#2565d0 }
+		.tbl tr:nth-child(10n) th, .tbl tr:nth-child(10n) td{ border-bottom: 1px solid #C9C9C9 ; }
+		.tbl tr:nth-child(50n) th, .tbl tr:nth-child(50n) td{ border-bottom: 1px solid #2565d0 ; }
+		.tbl tr.current th,
+		.tbl tr.current td{background-color:#000;color:#fff;}
+		.tbl tr.modify th,
+		.tbl tr.modify td{background-color:#31c8b5;color:#fff;}
+		.fin{background-color: green; color: white}
+		.semi{background-color: blue; color: white}
+		.center{text-align:center}
+    </style>
+</head>
+<body>
+    <table class="tbl">
+        <colgroup class="">
+            <col style="width:40%;">
+            <col style="width:20%" >
+            <col style="width:15%;">
+            <col style="width:20%;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">페이지</th>
+                <th scope="col">DEP01</th>
+                <th scope="col">DEP02</th>
+                <th scope="col">상태</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="end">
+                <td>main</td>
+                <td></td>
+                <td class="url"> <a href="index.html" target="_blank">main</a></td>
+                <td class="state">진행중</td>
+            </tr>
+            <tr class="end">
+                <td>product</td>
+                <td></td>
+                <td class="url"> <a href="product.html" target="_blank">product</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>지속가능경영</td>
+                <td></td>
+                <td class="url"> <a href="sustainability.html" target="_blank">sustainability</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>about</td>
+                <td></td>
+                <td class="url"> <a href="about.html" target="_blank">about</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>이용약관</td>
+                <td></td>
+                <td class="url"> <a href="etc-terms.html" target="_blank">etc-terms</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>쿠키정책</td>
+                <td></td>
+                <td class="url"> <a href="etc-cookie.html" target="_blank">etc-cookie</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>개인정보취급방치</td>
+                <td></td>
+                <td class="url"> <a href="etc-privacy.html" target="_blank">etc-privacy</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>이메일무단수집거부</td>
+                <td></td>
+                <td class="url"> <a href="etc-emailPopup.html" target="_blank">etc-emailPopup</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>error404</td>
+                <td></td>
+                <td class="url"> <a href="error404.html" target="_blank">error404</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>error500</td>
+                <td></td>
+                <td class="url"> <a href="error500.html" target="_blank">error500</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>팝업</td>
+                <td></td>
+                <td class="url"> <a href="popup.html" target="_blank">popup</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>embossed</td>
+                <td></td>
+                <td class="url"> <a href="embossed.html" target="_blank">embossed</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>premium</td>
+                <td></td>
+                <td class="url"> <a href="premium.html" target="_blank">premium</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>colord</td>
+                <td></td>
+                <td class="url"> <a href="colored.html" target="_blank">colored</a></td>
+                <td class="state">완료</td>
+            </tr>
+           
+            <tr class="end">
+                <td>상품찾기</td>
+                <td></td>
+                <td class="url"> <a href="product-search.html" target="_blank">product-search</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>상품찾기2</td>
+                <td></td>
+                <td class="url"> <a href="product-search2.html" target="_blank">product-search2</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>상품찾기-전체</td>
+                <td></td>
+                <td class="url"> <a href="product-search-all.html" target="_blank">product-search-all</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>상품찾기-검색결과 없음</td>
+                <td></td>
+                <td class="url"> <a href="product-search-all2.html" target="_blank">product-search-all2</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>스마트 검색</td>
+                <td></td>
+                <td class="url"> <a href="smart-search.html" target="_blank">smart-search</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>스마트 검색-상세</td>
+                <td></td>
+                <td class="url"> <a href="smart-search-detail.html" target="_blank">smart-search-detail</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>고객문의</td>
+                <td></td>
+                <td class="url"> <a href="contact-main.html".html" target="_blank">contact-main</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>고객문의하기</td>
+                <td></td>
+                <td class="url"> <a href="inquiry.html" target="_blank">inquiry</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>고객문의하기-리스트</td>
+                <td></td>
+                <td class="url"> <a href="inquiry-list.html" target="_blank">inquiry-list</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>고객문의하기-상세</td>
+                <td></td>
+                <td class="url"> <a href="inquiry-detail.html" target="_blank">inquiry-detail</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>고객인증하기</td>
+                <td></td>
+                <td class="url"> <a href="certification.html" target="_blank">certification</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>오시는길</td>
+                <td></td>
+                <td class="url"> <a href="map.html" target="_blank">map</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>sns</td>
+                <td></td>
+                <td class="url"> <a href="sns.html" target="_blank">sns</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>인증서</td>
+                <td></td>
+                <td class="url"> <a href="certificate.html" target="_blank">certificate</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>로딩</td>
+                <td></td>
+                <td class="url"> <a href="inquiry-loading.html" target="_blank">loading</a></td>
+                <td class="state">완료</td>
+            </tr>
+            <tr class="end">
+                <td>검색결과없음2</td>
+                <td></td>
+                <td class="url"> <a href="smart-search-detail2.html" target="_blank">smart-search-detail2</a></td>
+                <td class="state">완료</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.bottom{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999999;
+    transition: 0.3s ease;
+
+    button{
+        width: 26px;
+        height: 38px;
+        transition: 0.3s ease;
+
+        i{
+            background: url("../images/icon/scroll-bottom.svg") no-repeat center / contain;
+            display: block;
+            width: 26px;
+            height: 38px;
+        }
+    }
+    &.hide{
+        opacity: 0;
+        visibility: hidden;
+    }
+}

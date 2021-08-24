@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="icon" transform="translate(-786 -334)">
+    <rect id="grid" width="80" height="80" transform="translate(786 334)" fill="#ff0d0d" opacity="0"/>
+    <g id="icon-2" data-name="icon" transform="translate(-4 -5)">
+      <g id="그룹_388" data-name="그룹 388" transform="translate(785 183)">
+        <g id="패스_1117" data-name="패스 1117" fill="none" stroke-miterlimit="10">
+          <path d="M56.769,158H16v76H75V172.881Z" stroke="none"/>
+          <path d="M 19 161 L 19 231 L 72 231 L 72 174.3052215576172 L 55.70005798339844 161 L 19 161 M 16 158 L 56.76901626586914 158 L 75 172.8814849853516 L 75 234 L 16 234 L 16 158 Z" stroke="none" fill="#000"/>
+        </g>
+        <path id="패스_1118" data-name="패스 1118" d="M54.5,160l.034,17.142,18.608-2.068" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+      <g id="그룹_389" data-name="그룹 389" transform="translate(-28 5)">
+        <g id="그룹_380" data-name="그룹 380" transform="translate(842 366)">
+          <rect id="사각형_1656" data-name="사각형 1656" width="3" height="3" transform="translate(4 3)"/>
+          <rect id="사각형_1657" data-name="사각형 1657" width="3" height="3" transform="translate(7)"/>
+          <rect id="사각형_1658" data-name="사각형 1658" width="3" height="3" transform="translate(1)"/>
+          <rect id="사각형_1659" data-name="사각형 1659" width="3" height="3" transform="translate(7 6)"/>
+          <rect id="사각형_1660" data-name="사각형 1660" width="3" height="3" transform="translate(1 6)"/>
+        </g>
+        <g id="그룹_382" data-name="그룹 382" transform="translate(865 366)">
+          <rect id="사각형_1656-2" data-name="사각형 1656" width="3" height="3" transform="translate(4 3)"/>
+          <rect id="사각형_1657-2" data-name="사각형 1657" width="3" height="3" transform="translate(7)"/>
+          <rect id="사각형_1658-2" data-name="사각형 1658" width="3" height="3" transform="translate(1)"/>
+          <rect id="사각형_1659-2" data-name="사각형 1659" width="3" height="3" transform="translate(7 6)"/>
+          <rect id="사각형_1660-2" data-name="사각형 1660" width="3" height="3" transform="translate(1 6)"/>
+        </g>
+        <path id="패스_1111" data-name="패스 1111" d="M945,533.455h31.7" transform="translate(-102 -141)" fill="none" stroke="#000" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

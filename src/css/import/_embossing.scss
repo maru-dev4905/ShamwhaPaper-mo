@@ -1,0 +1,67 @@
+@for $i from 1 to 6 {
+    body{
+        &.fp-viewing-#{$i}{
+            .embossing-sec#{$i - 1}{
+                .sec_title{
+                    h2{
+                        opacity: 0;
+                        animation: fadeIn-up-s 0.75s 0.25s ease forwards;
+                    }
+                    p{
+                        opacity: 0;
+                        animation: fadeIn-up-s 0.75s 0.5s ease forwards;
+                    }
+                }
+            }
+        }
+    }
+}
+.embossing{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+    [class*=embossing-bg-img]{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .embossing-bg-img1{background-image: url("../images/common/embossing-bg1.png");}
+    .embossing-bg-img2{background-image: url("../images/common/embossing-bg2.png");}
+    .embossing-bg-img3{background-image: url("../images/common/embossing-bg3.png");}
+    .embossing-bg-img4{background-image: url("../images/common/embossing-bg4.png");}
+
+    .sec_title{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+
+        h2{
+            font-size: 50px;
+            font-family: "Roboto",sans-serif;
+            font-weight: 600;
+            color: $white-100;
+            line-height: 56px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            opacity: 1;
+            animation: fadeOut-down-s 1s 0.25s ease forwards;
+        }
+        p{
+            font-size: 14px;
+            font-family: "Spoqa Han Sans",sans-serif;
+            font-weight: 400;
+            color: $white-100;
+            opacity: 1;
+            animation: fadeOut-down-s 1s ease forwards;
+        }
+    }
+}

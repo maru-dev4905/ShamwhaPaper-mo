@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style-sub.css">
+</head>
+<body class="sub">
+    <div id="wrap">
+        <header>
+            <h1 class="logo">
+                <a href="./index.html">
+                    <i></i>
+                </a>
+            </h1>
+            <ul class="gnb_sub">
+                <li>
+                    <button class="search">
+                        <i></i>
+                    </button>
+                </li>
+                <li class="global">
+                    <span class="active">
+                        <a href="#">kor</a>
+                    </span>
+                    <span>
+                        <a href="#">eng</a>
+                    </span>
+                </li>
+                <li>
+                    <button class="hambuger-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </li>
+            </ul>
+        </header>
+        <div class="hambuger-menu fix">
+            <nav class="hambuger-nav">
+                <ul>
+                    <li>
+                        <button>about</button>
+                        <ul>
+                            <li>
+                                <a href="./about.html">회사소개</a>
+                            </li>
+                            <li>
+                                <a href="./certificate.html">인증서</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./sustainability.html">sustainability</a>
+                    </li>
+                    <li>
+                        <button>product</button>
+                        <ul>
+                            <li>
+                                <a href="./product.html">shamwha paper</a>
+                            </li>
+                            <li>
+                                <a href="./smart-search.html">smart search</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button>contact</button>
+                        <ul>
+                            <li>
+                                <a href="./contact-main.html">고객문의</a>
+                            </li>
+                            <li>
+                                <a href="./map.html">오시는 길</a>
+                            </li>
+                            <li>
+                                <a href="./sns.html">sns</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-search-box">
+            <button class="search-box-close">
+                <i>
+                    <img src="./images/icon/btn_close.svg" alt="close">
+                </i>
+            </button>
+            <form action="#" method="GET">
+                <input type="text" placeholder="제품명 또는 검색어를 입력하세요">
+                <span>
+                    <i>
+                        <img src="./images/icon/search-w.svg" alt="search">
+                    </i>
+                </span>
+            </form>
+        </div>
+        <section id="content">
+            <div class="content-wrap-inner">
+                <div class="h3-cont top">
+                    <h3>고객문의하기</h3>                    
+                </div>
+                <div class="sub-cont">
+                    <dl class=terms>
+                        <dt>개인정보 수집&middot;활용 동의서</dt>
+                        <dd>
+                            <div class="terms-cont">
+                                개인정보 보호를 위한 이용자 동의사항<br><br>     
+                                <ul>
+                                    <li>
+                                        삼화제지는 개인정보보호법 등 관련 법률에 따라 개인정보 수집 시 정보 주체에게 사전 고지하고 이에 대한 동의를 받습니다.
+                                        <br>
+                                        - 개인정보의 수집 및 이용 목적 : 삼화제지 고객센터 문의하기 서비스 이용 
+                                        <br>
+                                        - 수집하는 개인정보 항목 : 업종, 업체명, 이름, 주소, 연락처, 이메일주소 
+                                        <br>
+                                        - 개인정보 보유 및 이용 기간 : 동의일로부터 5년 
+                                    </li>
+                                    <li>
+                                        귀하는 동의를 거부할 권리가 있으나, 상기 사항에 동의하지 않으실 경우 문의하기 이용에 제한을 받으실 수 있습니다.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="form">
+                                개인정보 수집&middot;활용에 <label class="chk-box"><input type="checkbox" name="check" class="chk"><span></span>동의합니다.</label>                                       
+                            </div>
+                        </dd>
+                    </dl>
+                    <ul class="form-list">
+                        <li>
+                            <dl>
+                                <dt>이름</dt>
+                                <dd>
+                                    <div class="input-group">
+                                    	<input type="text" class="input-type left" placeholder="이름을 입력해 주세요.">
+                                    	<button class="btn-clear"><i></i></button>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>이메일</dt>
+                                <dd>
+                                    <div class="input-group">
+                                    	<input type="text" class="input-type left" placeholder="이메일을 입력해 주세요.">
+                                    	<button class="btn-clear"><i></i></button>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>업체명</dt>
+                                <dd>
+                                    <div class="input-group">
+                                        <input type="text" class="input-type left" placeholder="업체명을 입력해 주세요.">
+                                        <button class="btn-clear"><i></i></button>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>연락처</dt>
+                                <dd>
+                                    <div class="input-group">
+                                        <input type="" class="input-type left" placeholder="연락처를 입력해 주세요.">
+                                        <button class="btn-clear"><i></i></button>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>구분 </dt>
+                                <dd>
+                                    <select class="select">
+                                        <option value="">선택하세요</option>
+                                        <option value="">선택하세요</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>제목</dt>
+                                <dd>
+                                    <div class="input-group">
+                                        <input type="text" class="input-type left" placeholder="제목을 입력해 주세요.">
+                                        <button class="btn-clear"><i></i></button>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <div class="textarea">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="상세문의내용 입력해 주세요"></textarea>
+                                <div class="max-lang"><span>0</span>/1000 char max</div>
+                            </div>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt class="l">첨부파일</dt>
+                                <dd style="position:relative">
+                                    <div class="input-group">
+                                        <input type="text" class="input-type upload" placeholder="5MB이하 파일만 첨부 가능합니다." readonly>
+                                        <button class="btn-clear"><i></i></button>
+                                    </div>
+                                    <div class="upload-wrap">
+                                        <input type="file" id="file">
+                                        <label for="file" class="btn-file"></label>  
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>                
+                <div class="btn-set">
+                    <button type="button" class="white">취소</button>
+                    <button type="button" class="btn-popup-open">문의하기</button>
+                </div>        
+            </div>
+        </section>
+        <button class="scroll-up-btn">
+            <i></i>
+        </button>
+        <footer>
+            <div class="footer-inner">
+                <nav class="fnb">
+                    <ul>
+                        <li>
+                            <a href="./etc-terms.html">이용약관</a>
+                        </li>
+                        <li>
+                            <a href="./etc-privacy.html">개인정보취급방침</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <button class="emailPopup">이메일무단수집거부</button>
+                        </li>
+                        <li>
+                            <a href="./etc-cookie.html">쿠키정책</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="footer-content">
+                    <li>
+                        <p>서울 중구 을지로 170 을지로트윈타워 동관 7동</p>
+                    </li>
+                    <li>
+                        <p>사업자등록번호 317-81-26964</p>
+                    </li>
+                    <ul>
+                        <li>
+                            <p>TEL 02) 753-1136</p>
+                        </li>
+                        <li>
+                            <p>FAX 02) 773-7484</p>
+                        </li>
+                    </ul>
+                </ul>
+                <p class="footer-copy">
+                    Copyright &copy; samwha Co.Ltd.All Rights Reserved.
+                </p> 
+            </div>
+        </footer>
+        <div class="email-dim">
+            <div class="email-popup">
+                <button>
+                    <i></i>
+                </button>
+                <h3>이메일 무단수집거부</h3>
+                <p>
+                    삼화제지 기업 사이트에 게시된 이메일 주소가 전자우편 수집 프로그램이나
+                    그 밖의 기술적 장치를 이용하여 무단으로 수집되는 것을 거부하며,
+                    이를 위반시 정보통신망법에 의해 형사 처벌됨을 유념하시기 바랍니다.                    
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="layer">
+        <div class="layer-dimm"></div>
+        <div class="inner">
+            <div class="pop-contents">
+                <p class="text">
+                    고객님의 문의가 등록 완료되었습니다
+                </p>
+                <div class="btn-set">
+                    <button class="white">문의 내역 확인</a>
+                    <button class="close">메인으로 이동</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/common.js"></script>
+    <script src="./js/sub-ui.js"></script>
+    <script src="./js/popup.js"></script>
+</body>
+</html>

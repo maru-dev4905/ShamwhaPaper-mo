@@ -1,0 +1,90 @@
+.etc{
+    margin-top: 152px;
+    width: calc(100% - 40px);
+    margin: 152px auto 0 auto;
+    padding-bottom: 106px;
+    position: relative;
+
+    h2{
+        font-size: 30px;
+        font-family: "Spoqa Han Sans",sans-serif;
+        font-weight: 600;
+        color: $black-100;
+        padding-bottom: 23px;
+        border-bottom: 2px solid $black-100;
+        margin-bottom: 31px;
+    }
+    .sub-title{
+        margin-bottom: 22px;
+    }
+    h3{
+        font-size: 20px;
+        font-family: "Spoqa Han Sans",sans-serif;
+        font-weight: 600;
+        color: $black-100;
+        margin-bottom: 23px;
+    }
+    h4{
+        font-size: 16px;
+        font-family: "Spoqa Han Sans",sans-serif;
+        font-weight: 600;
+        color: $black-100;
+        margin-bottom: 7px;
+        line-height: 18px;
+    }
+    p{
+        font-size: 14px;
+        font-family: "Spoqa Han Sans",sans-serif;
+        font-weight: 400;
+        color: #777777;
+        line-height: 20px;
+        word-break: keep-all;
+    }
+    a{
+        color: #40C3B1;
+        border-bottom: 1px solid #40C3B1;
+    }
+    .inner-p{
+        word-break: keep-all;
+    }
+    .inner-span{
+        margin-left: 20px;
+    }
+    .etc-group{
+        margin-bottom: 31px;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+
+        .etc-article:not(:last-child){
+            margin-bottom: 22px;
+        }
+    }
+    .etc-box{
+        border-top: 1px solid #E5E5E5;
+        border-bottom: 1px solid #E5E5E5;
+        padding: 32px 0;
+
+        h5{
+            font-size: 16px;
+            font-family: "Spoqa Han Sans",sans-serif;
+            font-weight: 600;
+            color: $black-100;
+            margin-bottom: 22px;
+            text-align: center;
+        }
+        p{
+            font-size: 14px;
+            font-family: "Spoqa Han Sans",sans-serif;
+            font-weight: 400;
+            color: #777777;
+            margin-bottom: 11px;
+            text-align: center;
+        }
+    }
+    .scroll-up-btn{
+        right: 0 !important;
+        bottom: 40px !important;
+    }
+}

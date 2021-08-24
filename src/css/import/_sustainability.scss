@@ -1,0 +1,351 @@
+    .sustainability{
+        padding-bottom: 110px;
+        background-color: #FFFEFB;
+        overflow-x: hidden;
+    }
+    .sustainability-visual{
+        height: 100vh;
+        position: relative;
+
+        .visual-bg-img{
+            width: 100%;
+            height: 100%;
+            background: url("../images/bg/sustainability-bg.png") no-repeat center / cover;
+            animation: bgScale 1s ease forwards;
+        }
+
+        h2{
+            font-size: 40px;
+            font-family: "Roboto",sans-serif;
+            font-weight: 600;
+            color: #2D4441;
+            text-transform: uppercase;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            animation: fadeIn-up 1s ease forwards;
+        }
+
+        button{
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            z-index: 50;
+            transform: translateX(-50%);
+        }
+    }
+    .sustainability-intro{
+        height: 680px;
+        background: url("../images/bg/sustainability-bg2.png") no-repeat bottom / cover;
+        position: relative;
+        z-index: 9999;
+
+        .intro-text{
+            padding: 107px 30px 0 30px;
+
+            h2{
+                font-size: 30px;
+                font-family: "Spoqa Han Sans",sans-serif;
+                font-weight: 600;
+                color: #2D4441;
+                margin-bottom: 35px;
+            }
+            p{
+                word-break: keep-all;
+                &:nth-child(2){
+                    font-size: 16px;
+                    font-family: "Spoqa Han Sans",sans-serif;
+                    font-weight: 400;
+                    color: #000;
+                    margin-bottom: 22px;
+                    line-height: 22px;
+                }
+                &:nth-child(3){
+                    font-size: 14px;
+                    font-family: "Spoqa Han Sans",sans-serif;
+                    font-weight: 400;
+                    color: #777777;
+                    line-height: 22px;
+                }
+            }
+        }
+        img{
+            position: absolute;
+            right: 0;
+            bottom: 81px;
+            animation: spin 10s linear infinite;
+            width: 160px;
+            height: 160px;
+        }
+    }
+    .sustainability-wrap{
+        z-index:6000;
+        position: relative;
+        background-color: #FFFEFB;
+    }
+    .sustainability-slide{
+        padding-top: 101px;
+        position: relative;
+        
+
+        .slide-text{
+            padding: 0 20px;
+            h3{
+                font-size: 20px;
+                font-family: "Spoqa Han Sans",sans-serif;
+                font-weight: 600;
+                color: #2D4441;
+                margin-bottom: 13px;
+            }
+            p{
+                font-size: 16px;
+                font-family: "Spoqa Han Sans",sans-serif;
+                font-weight: 400;
+                color: #777777;
+                margin-bottom: 41px;
+                line-height: 22px;
+                word-break: keep-all;
+            }
+        }
+        .swiper-container{
+            width: 325px !important;
+            margin-left: 20px;
+            overflow: visible;
+
+            position: relative;
+
+            &::before{
+                content: "";
+                width: 20px;
+                height: 2px;
+                background-color: #364A47;
+                position: absolute;
+                display: block;
+                top: 74px;
+                left: -20px;
+                z-index: 999;
+            }
+            .swiper-wrapper{
+                width: 325px !important;
+            }
+
+            .swiper-slide{
+                width: 325px !important;
+                position: relative;
+
+                article > img{
+                    width: 100%;
+                }
+
+                .slide-title{
+                    position: absolute;
+                    top: 41px;
+                    left: 25px;
+                    display: flex;
+                    align-items: center;
+
+                    h3{
+                        font-size: 20px;
+                        font-family: "Spoqa Han Sans",sans-serif;
+                        font-weight: 600;
+                        color: #FFFFFF;
+                    }
+
+                    &::after{
+                        content: "";
+                        display: block;
+                        width: 167px;
+                        height: 2px;
+                        background-color: $white-100;
+                        position: absolute;
+                        bottom: -11px;
+                        left: -33px;
+                        z-index: 99;
+                    }
+                }
+                .slide-text{
+                    
+                    p{
+                        font-size: 14px;
+                        font-family: "Spoqa Han Sans",sans-serif;
+                        font-weight: 400;
+                        color: #D9D9D9;
+                        position: absolute;
+                        bottom: 35px;
+                        left: 25px;
+                        word-break: keep-all;
+                        width: calc(100% - 50px);
+                        margin-bottom: 0;
+                    }
+                }
+
+            }
+        }
+        i{
+            width: 24px;
+            height: 24px;
+            display: block;
+            margin-right: 10px;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .sustainability-parallax{
+        margin-top: 100px;
+
+        .parallax-title{
+            width: calc(100% - 40px);
+            margin: 0 auto;
+            h2{
+                font-size: 20px;
+                font-family: "Spoqa Han Sans",sans-serif;
+                font-weight: 600;
+                color: #2D4441;
+                margin-bottom: 13px;
+            }
+            p{
+                font-size: 16px;
+                font-family: "Spoqa Han Sans",sans-serif;
+                font-weight: 400;
+                color: #777777;
+                line-height: 22px;
+                word-break: keep-all;
+            }
+        }
+        .parallax-img{
+            width: calc(100% - 20px);
+            height: 275px;
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-top: 40px;
+            margin: 40px auto 0 auto;
+
+            img{
+                position: absolute;
+
+                &:nth-child(1){
+                    width: 260px;
+                    height: 150px;
+                    top: 0;
+                    left: 20px;
+                }
+                &:nth-child(2){
+                    width: 200px;
+                    height: 135px;
+                    right: 20px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+                &:nth-child(3){
+                    width: 150px;
+                    height: 105px;
+                    bottom: 0;
+                    left: 15%;
+                }
+            }
+        }
+        .parallax-text{
+            margin-top: 42px;
+            width: calc(100% - 40px);
+            margin: 42px auto 0 auto;
+
+            li{
+                margin-top: 32px;
+
+                &:first-child{
+                    margin-top: 0;
+                }
+
+                h3{
+                    font-size: 16px;
+                    font-family: "Spoqa Han Sans",sans-serif;
+                    font-weight: 600;
+                    color: #364A47;
+                    margin-bottom: 7px;
+                }
+                p{
+                    font-size: 14px;
+                    font-family: "Spoqa Han Sans",sans-serif;
+                    font-weight: 400;
+                    color: #777777;
+                    line-height: 20px;
+                    word-break: keep-all;
+                }
+            }
+        }
+    }
+    .sustainability-banner{
+        margin-top: 110px;
+        width: 100%;
+        height: 240px;
+        width: 100%;
+        background: url("../images/bg/sustainability-banner.png") no-repeat center / cover;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2{
+            font-size: 20px;
+            font-family: "Roboto",sans-serif;
+            font-weight: 600;
+            color: #364A47;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+        }
+        p{
+            font-size: 14px;
+            font-family: "Spoqa Han Sans",sans-serif;
+            font-weight: 400;
+            color: #777777;
+            line-height: 22px;
+            margin-bottom: 23px;
+            width: 300px;
+            word-break: keep-all;
+        }
+        strong{
+            font-size: 14px;
+            font-family: "Roboto",sans-serif;
+            font-weight: 600;
+            color: #000000;
+            text-transform: uppercase;
+        }
+    }
+    
+	.scroll-up-btn {
+		position: absolute;
+		z-index: 99999;
+		right: 20px;
+		bottom: 346px;
+		width: 50px;
+		height: 50px;
+		background-color: rgba(0, 0, 0, .7);
+	}
+	.scroll-up-btn i {
+		display: block;
+		width: 100%;
+		height: 100%;
+		background: url(../images/icon/btn_arrow-w.svg) center no-repeat;
+		background-size: 12px
+    }
+// @media all and (max-width:475px){
+//     .sustainability-slide::before{
+//         top: 358px;
+//     }
+// }
+// @media all and (max-width:363px){
+//     .sustainability-slide::before{
+//         top: 381px;
+//     }
+// }
+// @media all and (max-width:334px){
+//     .sustainability-slide::before{
+//         top: 403px;
+//     }
+// }

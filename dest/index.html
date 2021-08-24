@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    <title>SAMHWA PAPER</title>
+    <link rel="stylesheet" href="css/style-main.css">
+    <link rel="stylesheet" href="./css/common.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>	
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./css/plugin/jquery.fullpage.css">
+</head>
+<body class="main">
+    <div class="bg"></div>
+        <div id="wrap">
+            <header class="fix">
+            <h1 class="logo">
+                <a href="./index.html">
+                    <i></i>
+                </a>
+            </h1>
+            <ul class="gnb_sub">
+                <li>
+                    <button class="search">
+                        <i>
+                        </i>
+                    </button>
+                </li>
+                <li class="global">
+                    <span class="active">
+                        <a href="#">kor</a>
+                    </span>
+                    <span>
+                        <a href="#">eng</a>
+                    </span>
+                </li>
+                <li>
+                    <button class="hambuger-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </li>
+            </ul>
+            </header>
+            <div class="hambuger-menu fix">
+            <nav class="hambuger-nav">
+                <ul>
+                    <li>
+                        <button>about</button>
+                        <ul>
+                            <li>
+                                <a href="./about.html">회사소개</a>
+                            </li>
+                            <li>
+                                <a href="./certificate.html">인증서</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./sustainability.html">sustainability</a>
+                    </li>
+                    <li>
+                        <button>product</button>
+                        <ul>
+                            <li>
+                                <a href="./product.html">shamwha paper</a>
+                            </li>
+                            <li>
+                                <a href="./smart-search.html">smart search</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button>contact</button>
+                        <ul>
+                            <li>
+                                <a href="./contact-main.html">고객문의</a>
+                            </li>
+                            <li>
+                                <a href="./map.html">오시는 길</a>
+                            </li>
+                            <li>
+                                <a href="./sns.html">sns</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+            <div class="header-search-box">
+            <button class="search-box-close">
+                <i>
+                    <img src="./images/icon/btn_close.svg" alt="close">
+                </i>
+            </button>
+            <form action="#" method="GET">
+                <input type="text" placeholder="제품명 또는 검색어를 입력하세요">
+                <span>
+                    <i>
+                        <img src="./images/icon/search-w.svg" alt="search">
+                    </i>
+                </span>
+            </form>
+            </div>
+            <aside class="bottom">
+                <button class="scroll-btn" type="button">
+                    <i></i>
+                </button>
+            </aside>
+            <main class="main" id="fullpage">
+                <section class="white-bag section" data-anchor="slide1">
+                <div class="white-bg-img"></div>
+                <div class="sec_inner">
+                    <div class="sec_title">
+                        <h2>bespoke</h2>
+                        <h2>paper</h2>
+                    </div>
+                </div>
+                </section>
+                <section class="red-bag section">
+                <div class="red-bg-img"></div>
+                <div class="sec_inner">
+                    <div class="sec_title">
+                        <h2>truly</h2>
+                        <h2>yours</h2>
+                    </div>
+                </div>
+                </section>
+                <section class="embossing section embossing-sec1">
+                <div class="embossing-bg-img1"></div>
+                <div class="sec_inner">
+                    <div class="sec_title">
+                        <h2>LEATHACK</h2>
+                        <p>
+                            다양한 패턴 시리즈의 레자크
+                        </p>
+                    </div>
+                </div>
+                </section>
+                <section class="embossing section embossing-sec2">
+                <div class="embossing-bg-img2"></div>
+                <div class="sec_inner">
+                    <div class="sec_title">
+                        <h2>tant</h2>
+                        <p>
+                            부드럽고 자연스러운 탄트
+                        </p>
+                    </div>
+                </div>
+                </section>
+                <section class="embossing section embossing-sec3">
+                <div class="embossing-bg-img3"></div>
+                <div class="sec_inner">
+                    <div class="sec_title">
+                        <h2>dimple</h2>
+                        <p>
+                            자연스러운 양면 펠트 딤플
+                        </p>
+                    </div>
+                </div>
+                </section>
+                <section class="embossing section embossing-sec4">
+                <div class="embossing-bg-img4"></div>
+                <div class="sec_inner">
+                    <div class="sec_title">
+                        <h2>MERMAID</h2>
+                        <p>
+                            인어 비늘 무늬를 닮은 마매이드
+                        </p>
+                    </div>
+                </div>
+                </section>
+                <div class="rendezvous-sec_title section">
+                    <h2>rendezvous</h2>
+                    <p>
+                        잠들어 있는 종이의 감각을 깨우는 세상에  하나뿐인 패턴
+                    </p>
+                </div>
+                <div class="rendezvous-content section">
+                    <div class="rendezvous-content-inner">
+                        <img src="./images/common/rendezvous-cover.png" alt="rendezvous-cover">
+                        <button class="rendezvous-btn">
+                            <i>
+                                <img src="./images/icon/rendezvous-plus.svg" alt="rendezvous-btn">
+                            </i>
+                        </button>
+                    </div>
+                </div>
+                <section class="ending section">
+                    <div class="ending-bg-img delayed"></div>
+                    <div class="sec-inner">
+                        <div class="sec_title">
+                            <h2>bespoke</h2>
+                            <h2>solution</h2>
+                        </div>
+                    </div>
+                    
+                    <button class="scroll-up-btn">
+                        <i></i>
+                    </button>
+                </section>
+                <footer class="section fp-auto-height">
+                    <div class="footer-inner">
+                        <nav class="fnb">
+                            <ul>
+                                <li>
+                                    <a href="./etc-terms.html">이용약관</a>
+                                </li>
+                                <li>
+                                    <a href="./etc-privacy.html">개인정보취급방침</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <button class="emailPopup">이메일무단수집거부</button>
+                                </li>
+                                <li>
+                                    <a href="./etc-cookie.html">쿠키정책</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <ul class="footer-content">
+                            <li>
+                                <p>서울 중구 을지로 170 을지로트윈타워 동관 7동</p>
+                            </li>
+                            <li>
+                                <p>사업자등록번호 317-81-26964</p>
+                            </li>
+                            <ul>
+                                <li>
+                                    <p>TEL 02) 753-1136</p>
+                                </li>
+                                <li>
+                                    <p>FAX 02) 773-7484</p>
+                                </li>
+                            </ul>
+                        </ul>
+                        <p class="footer-copy">
+                            Copyright &copy; samwha Co.Ltd.All Rights Reserved.
+                        </p> 
+                    </div>
+                </footer>
+            </div>
+        </main>
+        <div class="rendezvous-bg-img">
+            <img src="./images/common/rendezvous-bg.png" alt="rendezvous-bg">
+        </div>
+    </div>
+    <div class="rendezvous-section swiper-container">
+        <button class="rendezvous-close-btn" href=".slide1">
+            <i>
+                <img src="./images/icon/close-w.svg" alt="close">
+            </i>
+        </button>
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+                <div class="rendezvous-sec-title">
+                        <div class="rendezvous-sec-text">
+                            <h2>
+                                VINTAGE
+                                <br>
+                                MOTORCYCLE
+                                <br>
+                                CLUB
+                            </h2>
+                            <strong>Samwha Paper Sample Book</strong>
+                        </div>
+                </div>
+                <div class="rendezvous-sec-content">
+                    <p>
+                        rendezvous
+                        <br>
+                        ultra white 190g/m²
+                    </p>
+                    <p>
+                        5 colors
+                        <br>
+                        offset print
+                    </p>
+                    <p>
+                        laminated paper
+                    </p>
+                </div>
+                <div class="rendezvous-sec-bg"></div>
+            </li>
+            <li class="swiper-slide">
+                <div class="rendezvous-sec-title">
+                    <div class="rendezvous-sec-text">
+                        <h2>
+                            Designers'
+                            <br>
+                            Choice
+                        </h2>
+                        <h3>RendezVous</h3>
+                        <p>
+                            랑데뷰는 이미지 재현성이 우수한 최고급 인쇄 용지입니다57년 전통 순수 우리 기술로 종이를생산해 온 삼화제지의 노하우와 기술력을 바탕으로 타사의 경쟁 제품들과 비교할 수 없는 품질을 구현하였고, 국내 러프그로스지 시장 점유율 부동의 1위를 계속 지켜가고 있습니다.                             
+                        </p>
+                    </div>
+                </div>
+                <div class="rendezvous-sec-content">
+                    <p>
+                        RENDEZVOUS
+                        <br>
+                        ULTRA WHITE 190g/m²                                    
+                    </p>
+                    <p>
+                        5 COLORS
+                        <br>
+                        OFFSET PRINT                                    
+                    </p>
+                    <p>
+                        LAMINATED PAPER
+                    </p>
+                </div>
+                <div class="rendezvous-sec-bg"></div>
+            </li>
+            <li class="swiper-slide">
+                <div class="rendezvous-sec-title">
+                    <div class="rendezvous-sec-text">
+                        <h2>
+                            SUPERB
+                            <br>
+                            COLOR VISIBILITY
+                        </h2>
+                        <h3>색 발현성이 우수합니다</h3>
+                        <p>
+                            종이의 색상은 인쇄 시 표현되는 색에 영향을 주며, 랑데뷰의 알맞은 바탕색은 선명하고, 자연에 가까운 색상 발현을 가능하게 합니다. 랑데뷰 내츄럴은 자연적인 백색 톤으로 자연스러운 색상과 이미지의 편안함을 효과적으로 보여주고, 인쇄물을 더욱 돋보이게 하고 고급스러움을 강조합니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="rendezvous-sec-content">
+                    <p>
+                        RENDEZVOUS
+                        <br>
+                        ULTRA WHITE 190g/m²                                    
+                    </p>
+                    <p>
+                        5 COLORS
+                        <br>
+                        OFFSET PRINT
+                    </p>
+                    <p>
+                        LAMINATED PAPER
+                    </p>
+                </div>
+                <div class="rendezvous-sec-bg"></div>
+            </li>
+            <li class="swiper-slide">
+                <div class="rendezvous-sec-content">
+                    <p>
+                        RENDEZVOUS
+                        <br>
+                        NATURAL 210g/m²                                    
+                    </p>
+                
+            
+                    <p>
+                        4 COLORS
+                        <br>
+                        OFFSET PRINT                                    
+                    </p>
+                
+            
+                    <p>
+                        UV VARNISH
+                    </p>
+                </div>
+                <div class="rendezvous-sec-bg"></div>
+            </li>
+            <li class="swiper-slide">
+                <div class="rendezvous-sec-title">
+                    <div class="rendezvous-sec-text">
+                        <h2>
+                            NATURAL
+                            <br>
+                            SURFACE TOUCH
+                        </h2>
+                        <h3>자연스러운 표면감이 살아있습니다</h3>
+                        <p>
+                            차별화된 코팅 방식에서 얻은 러프한 면감특성은 종이 
+                            <br>
+                            특유의 자연스러움을 살려 인쇄물에 고급감을 
+                            <br>
+                            부여합니다.                                
+                        </p>
+                    </div>
+                </div>
+                <div class="rendezvous-sec-content">
+                    <p>
+                        RENDEZVOUS
+                        <br>
+                        ULTRA WHITE 210g/m²                                    
+                    </p>
+                    <p>
+                        4 COLORS
+                        <br>
+                        OFFSET PRINT                                    
+                    </p>
+                </div>
+                <div class="rendezvous-sec-bg"></div>
+            </li>
+            <li class="swiper-slide">
+                <div class="rendezvous-sec-title">
+                    <div class="rendezvous-sec-text">
+                        <h2>BULKINESS</h2>
+                        <h3>벌키한 느낌의 종이입니다</h3>
+                        <p>
+                            뛰어난 Bulkiness는 동일 평량 대비 따뜻한 느낌을
+                            <br>
+                            부여하여 인쇄물을 더욱 돋보이게 합니다.                                
+                        </p>
+                    </div>
+                </div>
+                <div class="rendezvous-sec-content black">
+                    <p>
+                        RENDEZVOUS
+                        <br>
+                        ULTRA WHITE 210g/m²                                    
+                    </p>
+                    <p>
+                        5 COLORS 
+                        <br>
+                        OFFSET PRINT                                    
+                    </p>
+                </div>
+                <div class="rendezvous-sec-bg"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="email-dim">
+        <div class="email-popup">
+            <button>
+                <i></i>
+            </button>
+            <h3>이메일 무단수집거부</h3>
+            <p>
+                삼화제지 기업 사이트에 게시된 이메일 주소가 전자우편 수집 프로그램이나
+                그 밖의 기술적 장치를 이용하여 무단으로 수집되는 것을 거부하며,
+                이를 위반시 정보통신망법에 의해 형사 처벌됨을 유념하시기 바랍니다.                    
+            </p>
+        </div>
+    </div>
+    <script src="./js/plugin/jquery.fullpage.js"></script>
+    <script>
+        $("#fullpage").fullpage({
+        });
+        $('.scroll-up-btn').click(function () {
+			//$.fn.fullpage.setScrollingSpeed(0); 효과를 없애고싶을때
+			$.fn.fullpage.moveTo(1, 1); // 이동하고싶은 페이지
+			//$.fn.fullpage.setScrollingSpeed(700); 효과를 없애고싶을때
+        });
+        $(".bottom button").click(function(){
+            $.fn.fullpage.moveTo(2);
+        })
+    </script>
+    <script type="text/javascript" language = "javascript"> 
+
+        window.addEventListener('load', function() {
+        
+            setTimeout(scrollTo, 0, 0, 1);
+        
+        }, false);
+        
+    </script>
+    <script src="./js/main.js"></script>
+    <script src="./js/popup.js"></script>
+    <script src="./js/common.js"></script>
+</body>
+</html>

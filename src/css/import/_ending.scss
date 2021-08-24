@@ -1,0 +1,72 @@
+body.fp-viewing-9{
+    .ending.section{
+        .ending-bg-img{
+            top: -50px;
+        }
+    }
+}
+.ending{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #F3C758;
+
+    .ending-bg-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 50;
+        width: 100vw;
+        height: 100vh;
+        background: url("../images/common/bag_orange.png") no-repeat center / cover;
+        transition: 0.5s ease;
+    }
+    .sec_title{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+
+        h2{
+            font-size: 66px;
+            font-family: "Roboto",sans-serif;
+            font-weight: 600;
+            color: $white-100;
+            text-align: center;
+            text-transform: uppercase;
+
+            &:first-child{
+                letter-spacing: 4px;
+            }
+        }
+    }
+    .scroll-up-btn {
+		position: absolute;
+		z-index: 99999;
+		right: 20px;
+		bottom: 40px;
+		width: 50px;
+		height: 50px;
+        background-color: rgba(0, 0, 0, .7);
+        opacity: 0;
+        transition: 0.5s ease;
+	}
+	.scroll-up-btn i {
+		display: block;
+		width: 100%;
+		height: 100%;
+		background: url(../images/icon/btn_arrow-w.svg) center no-repeat;
+		background-size: 12px
+    }
+}
+.swiper-wrapper {
+    -webkit-overflow-scrolling: touch !important;
+    -webkit-backface-visibility: hidden !important;
+    -webkit-transform-style: flat !important;
+    -webkit-perspective: 1200px !important;
+    -moz-backface-visibility: hidden !important;
+    backface-visibility: hidden !important;
+}
+.swiper-img, .swiper-slide-active {
+    -webkit-backface-visibility: hidden !important;
+}

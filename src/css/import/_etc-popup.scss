@@ -1,0 +1,52 @@
+.emailPopup{
+    cursor: pointer;
+}
+.email-dim{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba($color: $black-100, $alpha: 0.7);
+    z-index: -10;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease;
+}
+.email-popup{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 335px;
+    background-color: $white-100;
+    padding: 40px !important;
+    border: 2px solid $black-100;
+    transition: 0.5s ease;
+    display: flex;
+    flex-direction: column;
+
+    h3{
+        font-size: 16px;
+        font-family: "Spoqa Han Sans",sans-serif;
+        font-weight: 600;
+        color: #000000;
+        margin-bottom: 12px;
+    }
+    p{
+        font-size: 14px;
+        font-family: "Spoqa Han Sans",sans-serif;
+        font-weight: 400;
+        color: #777777;
+        line-height: 20px;
+        word-break: keep-all;
+    }
+    i{
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        width: 24px;
+        height: 24px;
+        background: url("../images/icon/close.svg") no-repeat center / contain;
+    }
+}

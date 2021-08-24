@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="icon" transform="translate(-20 -126)">
+    <g id="grid" transform="translate(20 126)" fill="red" stroke="#000" stroke-width="1" opacity="0">
+      <rect width="25" height="25" stroke="none"/>
+      <rect x="0.5" y="0.5" width="24" height="24" fill="none"/>
+    </g>
+    <g id="icon-2" data-name="icon" transform="translate(-72.297 96)">
+      <path id="패스_1251" data-name="패스 1251" d="M0,0H21V18H0Z" transform="translate(113.5 32.5) rotate(90)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="선_78" data-name="선 78" x1="17" transform="translate(96 35.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_79" data-name="선 79" x1="17" transform="translate(96 50.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_80" data-name="선 80" y2="3" transform="translate(110.5 31)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_81" data-name="선 81" y2="3" transform="translate(106.5 31)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_82" data-name="선 82" y2="3" transform="translate(102.5 31)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_83" data-name="선 83" y2="3" transform="translate(98.5 31)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="패스_1241" data-name="패스 1241" d="M95.594,35.516,93.3,52.5H95" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="패스_1242" data-name="패스 1242" d="M113.35,35.557,115.7,52.5H114" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="그룹_431" data-name="그룹 431">
+        <rect id="사각형_1733" data-name="사각형 1733" width="1" height="1" transform="translate(99 39)"/>
+        <rect id="사각형_1734" data-name="사각형 1734" width="1" height="1" transform="translate(104 39)"/>
+        <rect id="사각형_1735" data-name="사각형 1735" width="1" height="1" transform="translate(109 39)"/>
+        <rect id="사각형_1736" data-name="사각형 1736" width="1" height="1" transform="translate(99 43)"/>
+        <rect id="사각형_1737" data-name="사각형 1737" width="1" height="1" transform="translate(104 43)"/>
+        <rect id="사각형_1738" data-name="사각형 1738" width="1" height="1" transform="translate(109 43)"/>
+        <rect id="사각형_1739" data-name="사각형 1739" width="1" height="1" transform="translate(99 47)"/>
+        <rect id="사각형_1740" data-name="사각형 1740" width="1" height="1" transform="translate(104 47)"/>
+        <rect id="사각형_1741" data-name="사각형 1741" width="1" height="1" transform="translate(109 47)"/>
+      </g>
+    </g>
+  </g>
+</svg>

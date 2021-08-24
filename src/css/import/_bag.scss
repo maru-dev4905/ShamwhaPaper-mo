@@ -1,0 +1,139 @@
+body:not(.fp-viewing-slide1){
+    .bottom button{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+body.fp-viewing-slide1{
+    .bottom button{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+body.fp-viewing-slide1{
+    .white-bag{
+        .sec_title{
+            h2{
+                &:nth-child(1){
+                    opacity: 0;
+                    animation: fadeIn-up 0.75s 0.5s ease forwards;
+                }
+                &:nth-child(2){
+                    opacity: 0;
+                    animation: fadeIn-up 0.75s 0.75s ease forwards;
+                }
+            }
+        }
+    }
+}
+.white-bag{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #DBD9DE;
+    top: 0;
+
+    .white-bg-img{
+        position: absolute;
+        top: 3.5%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("../images/common/bag_white.png") no-repeat center / cover;
+    }
+
+    .sec_title{
+        position: absolute;
+        top: 135px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        h2{
+            font-size: 66px;
+            font-family: "Roboto",sans-serif;
+            font-weight: 600;
+            color: #000000;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 10px;
+            opacity: 0;
+            
+            &:nth-child(1){
+                opacity: 1;
+                animation: fadeOut-down 0.75s 0.25s ease forwards;
+                margin-bottom: 0;
+            }
+
+            &:nth-child(2){
+                letter-spacing: 21px;
+                margin-left: 20px;
+                opacity: 1;
+                animation: fadeOut-down 0.75s ease forwards;
+            }
+        }
+    }
+}
+body.fp-viewing-1{
+    .red-bag{
+        .sec_title{
+            h2{
+                &:nth-child(1){
+                    opacity: 0;
+                    animation: fadeIn-up 0.75s 0.5s ease forwards;
+                }
+                &:nth-child(2){
+                    opacity: 0;
+                    animation: fadeIn-up 0.75s 0.75s ease forwards;
+                }
+            }
+        }
+    }
+}
+.red-bag{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #ED594D;
+    transition: 0.5s ease;
+    
+    .red-bg-img{
+        position: absolute;
+        top: 3.5%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("../images/common/bag_red.png") no-repeat center / cover;
+    }
+    .sec_title{
+        position: absolute;
+        top: 135px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        h2{
+            font-size: 66px;
+            font-family: "Roboto",sans-serif;
+            font-weight: 600;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 10px;
+            opacity: 0;
+
+            &:nth-child(1){
+                letter-spacing: 26px;
+                margin-left: 25px;
+                opacity: 1;
+                animation: fadeOut-down 0.75s 0.25s ease forwards;
+                margin-bottom: 0;
+            }
+            &:nth-child(2){
+                letter-spacing: 21px;
+                margin-left: 20px;
+                margin-bottom: 0;
+                opacity: 1;
+                animation: fadeOut-down 0.75s ease forwards;
+            }
+        }
+    }
+}

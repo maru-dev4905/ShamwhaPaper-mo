@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon" transform="translate(-345 -666)">
+    <rect id="grid" width="24" height="24" transform="translate(345 666)" fill="#ff2b2b" opacity="0"/>
+    <g id="icon-2" data-name="icon" transform="translate(78.5 255.5)">
+      <path id="패스_1732" data-name="패스 1732" d="M277.869,411.5H269.5v22h18V421.405Z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="패스_1733" data-name="패스 1733" d="M287,421.5h-9.5V412" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_189" data-name="선 189" y2="5" transform="translate(280.5 414)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_190" data-name="선 190" y2="1.5" transform="translate(283.5 417.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_191" data-name="선 191" x2="10" transform="translate(273.5 425.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_192" data-name="선 192" x2="10" transform="translate(273.5 428.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
